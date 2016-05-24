@@ -1,6 +1,6 @@
 # utility-node-boilerplate
 
-> version: 0.0.1-preview
+> version: 0.0.2-preview
 
 Simple NodeJS boilerplate, with basic unit test powered by [Mocha][mocha-link]/[Chai][chai-link]/[Sinon][sinon-link];
 
