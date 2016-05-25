@@ -1,6 +1,6 @@
 # utility-node-boilerplate
 
-> Note that this project is still in preview stage
+> Note that this project is still in unstable stage
 
 [![GitHub version](https://badge.fury.io/gh/unknownmoon%2Futility-node-boilerplate.svg)](https://badge.fury.io/gh/unknownmoon%2Futility-node-boilerplate)
 [![Dependency Status](https://david-dm.org/unknownmoon/utility-node-boilerplate.svg)](https://david-dm.org/unknownmoon/utility-node-boilerplate)
