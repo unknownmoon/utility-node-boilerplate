@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --fix index.js ./lib/**/*.js",
-    "test": "npm run clean-coverage; FORCE_COLOR=true babel-node node_modules/.bin/isparta cover --report text --report html _mocha -- --recursive --full-trace --es_staging --harmony --check-leaks --compilers js:babel-register -c -R spec ./test/**/*.spec.js | cat ",
+    "test": "npm run clean-coverage; npm run lint; FORCE_COLOR=true babel-node node_modules/.bin/isparta cover --report text --report html _mocha -- --recursive --full-trace --es_staging --harmony --check-leaks --compilers js:babel-register -c -R spec ./test/**/*.spec.js | cat ",
+    "test-only": "FORCE_COLOR=true mocha --recursive --full-trace --es_staging --harmony --check-leaks --compilers js:babel-register -c -R spec ./test/**/*.spec.js",
     "clean-coverage": "rm -rfv coverage/",
     "doc": "npm run clean-doc; jsdoc -c ./jsdoc.json; echo Documentation generated under ./jsdoc folder.",
     "clean-doc": "rm -rf jsdoc",
