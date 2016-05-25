@@ -1,6 +1,13 @@
 # utility-node-boilerplate
 
-> version: 0.0.2-preview
+> Note that this project is still in preview stage
+
+[![GitHub version](https://badge.fury.io/gh/unknownmoon%2Futility-node-boilerplate.svg)](https://badge.fury.io/gh/unknownmoon%2Futility-node-boilerplate)
+
+| Branch | Build Status |
+| ------- | -------|
+| Master | [![Build Status Master](https://travis-ci.org/unknownmoon/utility-node-boilerplate.svg?branch=master)](https://travis-ci.org/unknownmoon/utility-node-boilerplate)|
+| Develop | [![Build Status Develop](https://travis-ci.org/unknownmoon/utility-node-boilerplate.svg?branch=develop)](https://travis-ci.org/unknownmoon/utility-node-boilerplate)|
 
 Simple NodeJS boilerplate, with basic unit test powered by [Mocha][mocha-link]/[Chai][chai-link]/[Sinon][sinon-link];
 
