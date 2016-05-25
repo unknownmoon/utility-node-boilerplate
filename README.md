@@ -17,6 +17,7 @@ __Table of Contents__
 - [Initialisation](#initialisation)
 - [Clean Up](#clean-up)
 - [Test](#test)
+- [Generate JSDoc Documentation](#generate-jsdoc-documentation)
 
 <!-- /MarkdownTOC -->
 
@@ -44,8 +45,23 @@ npm run reset
 <a name="test"></a>
 ## Test
 
+Coverage report can be found in `./coverage` folder.
+
 ```bash
 npm test
+```
+
+<a name="generate-jsdoc-documentation"></a>
+## Generate JSDoc Documentation
+
+```bash
+# generate the documentation
+npm run doc
+
+# serve the generated documentation using `http-server`
+# note that no watch functionality is hooked, hence
+# changing code won't trigger documentation regeneration.
+npm run serve-doc
 ```
 
 <!-- links -->
