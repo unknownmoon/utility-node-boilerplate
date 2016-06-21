@@ -9,6 +9,7 @@
 | Master | Develop |
 | ------ | ------- |
 | [![Build Status Master](https://travis-ci.org/unknownmoon/utility-node-boilerplate.svg?branch=master)](https://travis-ci.org/unknownmoon/utility-node-boilerplate) | [![Build Status Develop](https://travis-ci.org/unknownmoon/utility-node-boilerplate.svg?branch=develop)](https://travis-ci.org/unknownmoon/utility-node-boilerplate) |
+| [![Coverage Status](https://coveralls.io/repos/github/unknownmoon/utility-node-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/unknownmoon/utility-node-boilerplate?branch=master) | [![Coverage Status](https://coveralls.io/repos/github/unknownmoon/utility-node-boilerplate/badge.svg?branch=develop)](https://coveralls.io/github/unknownmoon/utility-node-boilerplate?branch=develop) |
 
 Simple NodeJS boilerplate, with basic unit test powered by [Mocha][mocha-link]/[Chai][chai-link]/[Sinon][sinon-link];
 
