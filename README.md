@@ -9,6 +9,7 @@
 | Master | Develop |
 | ------ | ------- |
 | [![Build Status Master](https://travis-ci.org/unknownmoon/utility-node-boilerplate.svg?branch=master)](https://travis-ci.org/unknownmoon/utility-node-boilerplate) | [![Build Status Develop](https://travis-ci.org/unknownmoon/utility-node-boilerplate.svg?branch=develop)](https://travis-ci.org/unknownmoon/utility-node-boilerplate) |
+| [![Coverage Status](https://coveralls.io/repos/github/unknownmoon/utility-node-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/unknownmoon/utility-node-boilerplate?branch=master) | [![Coverage Status](https://coveralls.io/repos/github/unknownmoon/utility-node-boilerplate/badge.svg?branch=develop)](https://coveralls.io/github/unknownmoon/utility-node-boilerplate?branch=develop) |
 
 Simple NodeJS boilerplate, with basic unit test powered by [Mocha][mocha-link]/[Chai][chai-link]/[Sinon][sinon-link];
 
@@ -16,17 +17,21 @@ __Table of Contents__
 
 <!-- MarkdownTOC -->
 
-- [Initialisation](#initialisation)
-- [Clean Up](#clean-up)
-- [Test](#test)
-- [Build](#build)
-- [Generate JSDoc Documentation](#generate-jsdoc-documentation)
-- [Release](#release)
+- [Development](#development)
+    - [Initialisation](#initialisation)
+    - [Clean Up](#clean-up)
+    - [Test](#test)
+    - [Build](#build)
+    - [Generate JSDoc Documentation](#generate-jsdoc-documentation)
+    - [Release](#release)
 
 <!-- /MarkdownTOC -->
 
+<a name="development"></a>
+## Development
+
 <a name="initialisation"></a>
-## Initialisation
+### Initialisation
 
 ```bash
 # Have Node ^6.0.0 & NPM ^3.8.6 installed
@@ -36,7 +41,7 @@ npm install
 ```
 
 <a name="clean-up"></a>
-## Clean Up
+### Clean Up
 
 ```bash
 # remove the built code, for now only the test result 
@@ -47,7 +52,7 @@ npm run reset
 ```
 
 <a name="test"></a>
-## Test
+### Test
 
 Coverage report can be found in `./coverage` folder.
 
@@ -56,7 +61,7 @@ npm test
 ```
 
 <a name="build"></a>
-## Build
+### Build
 
 The source code is written in ES2015, hence before NodeJS fully support ES2015, we need to build the code to `es2015-node` using [Babel][babel-link].
 
@@ -67,7 +72,7 @@ npm run build
 ```
 
 <a name="generate-jsdoc-documentation"></a>
-## Generate JSDoc Documentation
+### Generate JSDoc Documentation
 
 ```bash
 # generate the documentation
@@ -80,7 +85,7 @@ npm run serve-doc
 ```
 
 <a name="release"></a>
-## Release
+### Release
 
 Shorthand script to generate release content, including `./coverage`, `./jsdoc` and `./dist`.
 
