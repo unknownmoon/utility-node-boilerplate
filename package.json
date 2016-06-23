@@ -1,6 +1,6 @@
 {
   "name": "utility-node-boilerplate",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Simple NodeJS boilerplate, with basic unit test powered by Mocha/Chai/Sinon",
   "main": "dist/es2015-node/index.js",
   "scripts": {
